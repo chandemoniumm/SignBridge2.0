@@ -13,7 +13,7 @@ It includes:
 ## 📦 Setup
 
 ```bash
-git clone https://github.com/<your-username>/sign-language-yolo.git
+git clone https://github.com/<your-username>/sign-language-yolo.git](https://github.com/chandemoniumm/SignBridge2.0
 cd sign-language-yolo
 python3 -m venv venv
 source venv/bin/activate
