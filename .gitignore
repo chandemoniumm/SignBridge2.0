@@ -1,0 +1,10 @@
+venv/
+test/
+valid/
+train/
+.dockerignore
+test_results/
+__pycache__/
+*.ipynb_checkpoints
+*.cache
+
