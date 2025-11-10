@@ -29,8 +29,10 @@ cd SignBridge2.0
 
 2) Create & activate venv
 py -3 -m venv venv
-# If activation is blocked, run once:  Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-.\venv\Scripts\Activate.ps1   # (use: .\venv\Scripts\activate.bat in CMD)
+# If activation is blocked, run once:
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+.\venv\Scripts\Activate.ps1
+# (use: .\venv\Scripts\activate.bat in CMD)
 
 3) Install deps
 python -m pip install --upgrade pip
