@@ -10,7 +10,7 @@ from PIL import Image, ImageTk
 from ultralytics import YOLO
 
 # ========= CHANGE ME (paths / settings) =========
-MODEL_PATH   = "/home/chandemonium/Downloads/Dataset/runs/isl_yolo_det2/weights/best.pt"
+MODEL_PATH   = "runs/isl_yolo_det2/weights/best.pt"
 CAMERA_INDEX = 0          # 0 = default webcam
 CONF_THRES   = 0.7     # detection confidence
 IMG_SIZE     = 640        # 320 for faster, 640 for better
