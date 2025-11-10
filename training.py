@@ -1,8 +1,8 @@
 from ultralytics import YOLO
 import os
 
-DATA = "/home/chandemonium/Downloads/Dataset/data.yaml"
-PROJECT_DIR = "/home/chandemonium/Downloads/Dataset/runs"  # where results go
+DATA = "data.yaml"
+PROJECT_DIR = "runs"  # where results go
 
 print("data.yaml lives in:", os.path.dirname(DATA))
 print("entries there:", os.listdir(os.path.dirname(DATA)))
